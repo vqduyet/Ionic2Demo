@@ -4,14 +4,16 @@ page-login {
     background: #56CA96;
  
     .logo-row {
-      padding-top: 50px;
-      padding-bottom: 20px;
+      padding-top: 30px;
+      padding-bottom: 10px;
     }
  
     .login-box {
-      background: #399F8B;
+      //background: #399F8B;
+      background-image: url("http://lorempixel.com/400/200/");
+      background-size: 100%;
       padding: 20px 20px 0px 20px;
-      margin-top: 30px;
+      margin-top: 20px;
     }
  
     ion-row {
@@ -41,12 +43,17 @@ page-login {
  
      .submit-btn {
        background: #51CFB1;
+       opacity: 1;       
        border-radius: 30px !important;
        border: 1px solid #ffffff;
      }
  
      .register-btn {
+       opacity: 1;
        color: #ffffff;
+       background: #51CFB1;
+       border-radius: 30px !important;
+       border: 1px solid #ffffff;
        font-size: 0.8em;
      }
   }
