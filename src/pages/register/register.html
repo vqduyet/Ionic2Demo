@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar color="dark">
+  <ion-navbar color="third">
     <ion-title>Register</ion-title>
   </ion-navbar>
 
@@ -21,11 +21,15 @@
           <ion-list inset>
 
             <ion-item>
-              <ion-input type="text" placeholder="Email" name="email" [(ngModel)]="registerCredentials.email" required>/</ion-input>
+              <ion-input type="text" placeholder="Your name" name="name" [(ngModel)]="registerCredentials.name" required>/</ion-input>
             </ion-item>
 
             <ion-item>
-              <ion-input type="text" placeholder="Password" name="password" [(ngModel)]="registerCredentials.password" required></ion-input>
+              <ion-input type="email" placeholder="Email" name="email" [(ngModel)]="registerCredentials.email" required>/</ion-input>
+            </ion-item>
+
+            <ion-item>
+              <ion-input type="password" placeholder="Password" name="password" [(ngModel)]="registerCredentials.password" required></ion-input>
             </ion-item>
 
           </ion-list>
